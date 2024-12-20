@@ -1,0 +1,91 @@
+body {
+    min-height: 100vh;
+    background-color: #E5C532;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    text-align: center;
+}
+
+#word {
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 5vh;
+    width: 45vh;
+    border-radius: 2vh; 
+    display: flex;
+    justify-content: center;
+}
+
+
+button {
+    margin-bottom: 20px;
+}
+
+.motus span {
+    display: inline-block;      /* Traite chaque lettre comme une "bulle" */
+    background: linear-gradient(145deg, #6c92c0, #8fb4ec); /* Couleur de fond */
+    color: white;              /* Couleur du texte */
+    width: 50px;               /* Largeur de la bulle */
+    height: 50px;              /* Hauteur de la bulle */
+    line-height: 50px;         /* Centre le texte verticalement */
+    text-align: center;        /* Centre le texte horizontalement */
+    border-radius: 50%;        /* Transforme les carrés en cercles */
+    margin: 5px;               /* Espacement entre les bulles */
+    font-size: 24px;           /* Taille du texte */
+    font-family: Arial, sans-serif; /* Police */
+  }
+
+  .ok-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(145deg, #6c92c0, #8fb4ec); /* Dégradé */
+    border: none;
+    border-radius: 25px; /* Forme arrondie */
+    cursor: pointer; /* Affiche une main au survol */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), 
+                -4px -4px 8px rgba(255, 255, 255, 0.5); /* Ombres 3D */
+    transition: all 0.3s ease; /* Animation fluide */
+  }
+  
+  .ok-button:hover {
+    background: linear-gradient(145deg, #8fb4ec, #6c92c0); /* Change le dégradé de direction */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3), 
+                -6px -6px 12px rgba(255, 255, 255, 0.6); /* Accentue l'ombre */
+    transform: scale(1.1); /* Agrandit le bouton */
+  }
+
+  .explication{
+    line-height: 300%;
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(145deg, #6c92c0, #8fb4ec); /* Couleur de fond dégradé */
+    color: white;              /* Couleur du texte */
+    width: 350px;               
+    height: 350px;              
+    line-height: 50px;        
+    border-radius: 20%;        
+    margin: 5px;               
+    font-size: 24px;           
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #try, #well, #miss, #not, #win {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+}
+
+
+ 
